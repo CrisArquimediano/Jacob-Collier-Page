@@ -1,5 +1,6 @@
-@import url(https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Literata);
-
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Literata");
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
 * {
     box-sizing: border-box;
     color: #777;
@@ -49,5 +50,53 @@
     text-align: center;
     padding: 0;
     font-size: 4em;
-    font-family: "Booter - Zero zero";
+    font-family: 'Rubik', sans-serif;
+    font-weight: normal;
+    color: white;
+}
+.artist-name-large {
+    color: rgb(146, 175, 41);
+    font-size: 7em;
+}
+
+.selection-header{
+    font-family: 'Crimson Pro', cursive;
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+    line-height: 30px;
+}
+
+#biography-jacob-image {
+    float: left;
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 15px;
+    
+}
+.main-footer {
+    background-color: rgb(46, 128, 182);
+    color: black;
+    padding: .12em;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav img {
+    width: 35px;
+    height: 35px;
 }
