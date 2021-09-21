@@ -8,6 +8,10 @@
     font-family: 'Crimson Pro' serif;
 }
 
+A {
+    text-decoration: none;
+}
+
 .main-header {
     background-color: rgba(0, 0, 0, .3);
     background-image: url(Logos/backgroundRainbow.jpg);
@@ -26,7 +30,6 @@
 
 .nav a {
     padding: .5em;
-    text-decoration: none;
     color: white;
 }
 
